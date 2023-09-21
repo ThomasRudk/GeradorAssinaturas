@@ -1,0 +1,71 @@
+/*--- Configurações da assinatura ---*/
+.assinatura {
+    display: none;
+    font-family: Arial, sans-serif;
+    padding: auto;
+    min-width: 630px;
+    max-width: 900px;
+    float: left;
+    margin-top: 30px;
+    border: 1px solid rgb(207, 208, 210);
+}
+.corpo{
+    font-size: small;
+    float: left;
+    margin-left: 50px;
+    margin-top: -30px;
+    line-height: 18px;
+}
+.nome {
+    font-size: 18px;
+    margin-left: -8px;
+}
+.informacoes {
+    font-size: 15px;
+}
+
+/*--- Configurações da logo ---*/
+.logo {
+    width: 150px;
+    margin-left: 20px;
+    margin-right: -60px;
+    max-width: 180px;
+    display: block;
+    cursor: pointer;
+    float: left; 
+}
+.links{
+    float: left;
+    margin-left: -50px;
+    margin-top: 15px;
+}
+.rede-social {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;    
+}
+
+
+
+/*--- Geral ---*/
+.clear{
+    clear: both;
+}
+.alerta {
+    display: none;
+    background-color: #b21c11;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.alerta.show {
+    display: block;
+}
+.txtBanner{
+    text-align: center;
+}
+.fecharAlerta {
+    border-radius: 15px;
+    align-items: start;
+}
